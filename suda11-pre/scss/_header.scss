@@ -1,0 +1,29 @@
+header {
+    box-sizing: border-box;
+    display: flex;    
+    align-items: center;
+    width: 100%;
+    padding: 6vh 4.75vw 0;
+    position: absolute;
+    color: #707070;
+    justify-content: space-between;
+    @include tab {
+        padding: 3vh 4.75vw;
+        
+        position: static;
+    }
+
+}
+
+.hd-logo {    
+    font-size:3.8rem;
+    font-weight: bold;
+    color: black;
+	margin-right: 94px;
+	font-family: serif;
+	
+    @include tab {
+        font-size: 2.2rem;
+    }
+}
+

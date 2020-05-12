@@ -1,0 +1,68 @@
+.menu-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include tab {
+        flex-direction: column;
+        
+    }
+}
+
+
+    
+.menu-item {
+    @include tab {
+        width: 335px;
+        text-align: center;
+       
+    }
+
+    font-family: "Roboto Mono for Powerline", serif;
+    flex-direction: column;
+    font-weight: bold;
+    .menu__content {
+    font-size: 1.6rem;
+    width: 400px;
+        &__title {
+            font-size: 2.3rem;
+            font-weight: bold;
+        }
+        &__money {
+            text-align: right;
+        }
+        @include tab {
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .menu__content__content {
+        height: 106px;
+        @include tab {
+            height: fit-content;
+        }
+    }
+ 
+}
+
+.menu-img {
+    .m-img {
+        width: 90%;
+        height: 300px;
+       
+    
+    @include tab{
+        width: 335px;
+        background-repeat: cover;
+        
+    }
+}
+}
+
+
+
+
+
+
+
+
+
